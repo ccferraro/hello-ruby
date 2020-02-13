@@ -15,3 +15,8 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+cf_list = ["milk","eggs","bacon","apples"]
+friend_list = ["beer", "cookies", "apples"]
+
+total_list=cf_list+friend_list
+puts total_list.sort.uniq
